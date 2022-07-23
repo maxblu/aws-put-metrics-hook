@@ -1,5 +1,5 @@
 {
-  "name": "aws-metric",
+  "name": "@maxblu/aws-metric",
   "version": "1.0.0",
   "description": "library to put metrics in aws",
   "scripts": {
@@ -12,6 +12,9 @@
   ],
   "author": "danydelaosa@gmail.com",
   "license": "ISC",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/maxblu"
+  },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^22.0.1",
     "@rollup/plugin-json": "^4.1.0",
