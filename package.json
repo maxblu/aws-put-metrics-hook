@@ -1,5 +1,5 @@
 {
-  "name": "@maxblu/aws-metric",
+  "name": "@maxblu/aws-put-metrics-hook",
   "version": "1.0.0",
   "description": "library to put metrics in aws",
   "scripts": {
