@@ -1,6 +1,6 @@
 {
   "name": "@maxblu/aws-put-metrics-hook",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "library to put metrics in aws",
   "scripts": {
     "rollup": "rollup -c"

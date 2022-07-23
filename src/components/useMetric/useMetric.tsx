@@ -27,8 +27,6 @@ interface DataPoints {
 
 function useMetric(config:UseMetricConfig) {
     const [cwClient, _ ] = useState(new CloudWatchClient(config));
-//   const [results, setResults] = useState([]);
-//   const [error, setError] = useState("");
 
     const  sendMetric = async (points:[DataPoints]) =>{
         
